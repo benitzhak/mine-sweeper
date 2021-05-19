@@ -1,0 +1,45 @@
+h1 {
+    background-color: gray;
+    text-align: center;
+    font-style: italic;
+    border-bottom: solid red;
+    height: 70px;
+}
+
+td {
+    width: 20px;
+    height: 20px;
+}
+
+.cell {
+    background-color: gray;
+}
+
+.levels {
+    border: solid black;
+    width: 100px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.game-box {
+    margin-left: 450px;
+    width: 500px;
+    height: 500px;
+}
+
+.score {
+    border: solid red;
+    width: 150px;
+    margin-top: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+button {
+    border: solid black;
+    border-radius: 10px;
+    cursor: pointer;
+}

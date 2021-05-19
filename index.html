@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/main.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sprint 1</title>
+</head>
+
+<body onload="init()">
+    <h1>Mine Sweeper</h1>
+    <div class="game-box">
+        <div onclick="changeLevel(4)" class="levels">easy (4*4)</div>
+        <div onclick="changeLevel(8)" class="levels">normal (8*8)</div>
+        <div onclick="changeLevel(12)" class="levels">hard (12*12)</div>
+        <div>
+            <button>😊</button>
+        </div>
+        <div class="board">
+
+        </div>
+        <div class="score">your score is: <span>0</span></div>
+    </div>
+    <script src="js/main.js"></script>
+    <script src="js/util.js"></script>
+</body>
+
+</html>
