@@ -1,9 +1,7 @@
-h1 {
-    background-color: gray;
-    text-align: center;
-    font-style: italic;
-    border-bottom: solid red;
-    height: 70px;
+img {
+    height: 150px;
+    width: 50%;
+    margin-left: 28%;
 }
 
 td {
@@ -16,30 +14,65 @@ td {
 }
 
 .levels {
-    border: solid black;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: large;
     width: 100px;
     margin-bottom: 10px;
     border-radius: 10px;
     text-align: center;
     cursor: pointer;
+    margin: auto;
+    width: 50%;
+}
+
+.levels:hover {
+    color: red;
 }
 
 .game-box {
-    margin-left: 450px;
-    width: 500px;
-    height: 500px;
+    width: 700px;
+    height: 600px;
+    margin: auto;
 }
 
 .score {
-    border: solid red;
+    font-family: "Lucida Console", "Courier New", monospace;
     width: 150px;
     margin-top: 20px;
     border-radius: 10px;
     text-align: center;
+    margin: auto;
+    width: 50%;
+    font-style: italic;
+    font-size: large;
+}
+
+.timer {
+    font-family: "Lucida Console", "Courier New", monospace;
+    width: 150px;
+    margin-top: 20px;
+    border-radius: 10px;
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    font-style: italic;
+    font-size: large;
 }
 
 button {
-    border: solid black;
+    background-attachment: fixed;
     border-radius: 10px;
     cursor: pointer;
+    margin-bottom: 5px;
+}
+
+.btn {
+    margin-left: 170px;
+    width: 50%;
+    text-align: center;
+}
+
+.board {
+    margin-left: 42%;
+    width: 50%;
 }

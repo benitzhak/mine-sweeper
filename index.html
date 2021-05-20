@@ -10,18 +10,19 @@
 </head>
 
 <body onload="init()">
-    <h1>Mine Sweeper</h1>
+    <img src="img/minesweeper.jpg">
     <div class="game-box">
-        <div onclick="changeLevel(4)" class="levels">easy (4*4)</div>
-        <div onclick="changeLevel(8)" class="levels">normal (8*8)</div>
-        <div onclick="changeLevel(12)" class="levels">hard (12*12)</div>
-        <div>
-            <button>😊</button>
+        <div onclick="changeLevel(4)" class="levels">easy (4*4)</div><br>
+        <div onclick="changeLevel(8)" class="levels">normal (8*8)</div><br>
+        <div onclick="changeLevel(12)" class="levels">hard (12*12)</div><br>
+        <div class="btn">
+            <button onclick="init()">😁</button>
         </div>
         <div class="board">
 
-        </div>
-        <div class="score">your score is: <span>0</span></div>
+        </div><br>
+        <div class="score">your score is: <span>0</span></div><br>
+        <div class="timer">your time is: <span>0</span></div>
     </div>
     <script src="js/main.js"></script>
     <script src="js/util.js"></script>
